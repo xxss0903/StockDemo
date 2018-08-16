@@ -1,11 +1,11 @@
 package com.zack.socketdemo.base
 
 class BaseContract{
-    inner class BasePresenter{
+    interface BasePresenter{
 
     }
 
-    inner class BaseView{
-
+    interface BaseView{
+        fun getActivity(): BaseActivity
     }
 }
